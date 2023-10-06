@@ -1,0 +1,28 @@
+#ifndef MENU_H_INCLUDED
+#define MENU_H_INCLUDED
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <conio.h>
+
+//DESPLIEGA EL MENU PRINCIPAL //
+// Y RETORNA LA OPCION SELECCIONADA//
+int MenuPrincipal ();
+
+//DESPLIEGA EL MENU DE ALTAS Y BAJAS //
+// Y RETORNA LA OPCION SELECCIONADA//
+int MenuAB ();
+
+//DESPLIEGA EL MENU DE CONSULTAS //
+// Y RETORNA LA OPCION SELECCIONADA//
+int MenuConsulta ();
+
+//DESPLIEGA EL MENU DE LISTADOS //
+// Y RETORNA LA OPCION SELECCIONADA//
+int MenuListado ();
+
+//ESPERA QUE EL USUARIO DE LA ORDEN DE CONTINUAR//
+void Pausa();
+
+
+#endif // MENU_H_INCLUDED

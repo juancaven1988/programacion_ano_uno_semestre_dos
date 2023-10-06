@@ -1,0 +1,12 @@
+#ifndef ERRORES_H_INCLUDED
+#define ERRORES_H_INCLUDED
+
+#include "cadenas.h"
+
+void Opcnovalid();
+//MUESTRA UN MENSAJE DE OPCION NO VALIDA//
+
+void Imposible();
+//MENSAJE DE ERROR SI NO CUMPLE PRECONDICION//
+
+#endif // ERRORES_H_INCLUDED
